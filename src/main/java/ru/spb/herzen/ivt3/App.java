@@ -18,20 +18,24 @@ public class App
             mas[i] = rnd.next();
             System.out.println("Hello, "+mas[i]);
         }
+
         System.out.println("\nExercise 2");
         Arrays.sort(mas);
         for (String orderedArrEl: mas) {
             System.out.println(orderedArrEl);
         }
+
         System.out.println("\nExercise 3");
         for (int i=2; i<5; i++) {
             System.out.println("Hello, "+mas[i] + " " + i);
         }
+
         System.out.println("\nExercise 4");
         for (int i=0; i<15; i++) {
             mas[i]=mas[i].toUpperCase();
             System.out.println(mas[i]);
         }
+
         System.out.println("\nExercise 5");
         int[] numArr = new int[30];
         int amount = 0;
@@ -44,6 +48,7 @@ public class App
         }
         System.out.println("Amount of even numbers: " + amount);
 
+
         System.out.println("\nExercise 6");
         String my_name = "Kirill";
         char[] ch_name = my_name.toCharArray();
@@ -52,6 +57,7 @@ public class App
             System.out.print(Char + " ");
         }
 
+        
         System.out.println("\n\nExercise 7");
         String vowels = "aieuo";
         char[] vowels_arr = vowels.toCharArray();
