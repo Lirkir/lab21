@@ -10,6 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
+        System.out.println("I'm Kirill Nikolaev\n");
         RandomNameGenerator rnd = new RandomNameGenerator(0);
         System.out.println("Exercise 1");
         String[] mas = new String[15];
@@ -66,4 +67,4 @@ public class App
         }
         System.out.print("Amount of vowels in the name: " + amount);
     }
-}           
+}
